@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(250,140,196);
+     }
+.b8 {
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+   }
+.titulo {
+    background-color: bisque;
+    color: salmon;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 35px;
+    border-left : 2.5px dotted black;
+    border-right : 2.5px dotted black;
+    border-top : 2.5px dotted black;
+    border-bottom : 2.5px dotted black;
+     }
+   
+     .padre {
+        display:flex;
+      }
+      
+      .btn1 {
+        background-color: bisque;
+        color: salmon;
+        border-left : 2.5px dotted black;
+        border-right : 2.5px dotted black;
+        margin: 10px;
+      }
+      
+      .btn2 {
+        background-color: bisque;
+        color:salmon;
+        border-left : 2.5px dotted black;
+        border-right : 2.5px dotted black;
+        margin: 10px;
+    
+      }
+      .btn3 {
+        background-color: bisque;
+        color:salmon;
+        border-left : 2.5px dotted black;
+        border-right : 2.5px dotted black;
+        margin: 10px;
+    
+      }
+      
+      .btn1, .btn2, .btn3 {
+        flex: 2;
+        font-family: sans-serif;
+      }
+      a:visited 
+      {
+      color: salmon;
+      }
+      a:hover {
+          color: blue;
+          background-color: pink;
+          text-decoration: none;
+      }
+      a:active {
+          background-color: orange;
+          }
+      .fin
+{
+    background-color: bisque;
+    color:seagreen;
+    flex-basis: 40px;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 40px;
+    border-left : 2.5px dotted black;
+    border-right : 2.5px dotted black;
+    border-top : 2.5px dotted black;
+    border-bottom : 2.5px dotted black;
+}
